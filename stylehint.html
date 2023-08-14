@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lipine</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+    <style type="text/css">
+      body {
+	      background-color: #AB3B68;
+	      background-position: center;
+	      background-image:url(FUNDO12.png);
+      }
+      .body{
+	      height:100%;
+	      width:100%;
+      }
+      section {
+	      position: absolute;
+	      height: 100%;
+	      min-height: 100%;
+	      max-height: 100%;
+	      width: 100%;
+      }
+      .buttons {
+	      width: 1000px;
+	      height: 50px;
+	      margin-top: 80px;
+	      margin-left: 100px;
+	      float:left;
+	      font-size: 30px;
+	      font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	      font-style: bold;
+      }
+      .buttons {
+	      -webkit-transition: all 1s ease 0s;
+	      -o-transition: all 1s ease 0s;
+	      transition: all 1s ease 0s;
+      }
+      .navigation_button {
+	      border-right: #4C70E7;
+	      border-right: #f70395 thin dotted;
+	      margin:80px;
+	      display: block;
+	      -webkit-transition: all 1s ease 0s;
+	      -o-transition: all 1s ease 0s;
+	      transition: all 1s ease 0s;
+	      width: -10px;
+	      height: 10px;
+	      margin-top:-80px;
+	      margin-left:380px;
+	      float:left;
+	      color:white;
+	      font-size: 20px;
+	      font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Bodoni 72 Bold""sans-serif";
+	      font-style: bold;
+      }
+      }
+      .navigation_button:hover {
+	      color: lightpink;
+	      cursor: pointer;
+      }
+      .header {
+	      height:100px;
+	      width:200px;
+	      background-image:url("Lipine Logo Pequeno.png");
+	      margin: auto;
+	      margin-top: 70px;
+	      margin-left:530px;
+	      padding: 50px;
+	 		}
+      {
+      	box-sizing: border-box;
+      }
+      .pic {
+	      width:1200px;
+	      height:1500px;
+	      background-image:url("53.png");
+	      margin-left:10px;
+	      margin-top: 60px;
+      }
+      .pic1 {
+	      width:375px;
+	      height:500px;
+	      background-image:url("00.png");
+	      /*margin-left:-700px;
+	      margin-top: -700px;	*/
+      }
+      .pic3 {
+	      width:329px;
+	      height:437px;
+	      background-image:url("s7.png");
+	      margin-left:-750px;
+	      margin-top: 1450px;	
+      }
+      .pic4 {
+	      width:329px;
+	      height:437px;
+	      background-image:url("s10.png");
+	      margin-left:780px;
+	      margin-top: -435px;	
+      }
+      .pic5 {
+	      width:329px;
+	      height:437px;
+	      background-image:url("s8.png");
+	      margin-left:20px;
+	      margin-top: -438px;	
+      }
+      .pic6 {
+	      width:239px;
+	      height:82px;
+	      background-image:url("koko.png");
+	      margin-left:-870px;
+	      margin-top: -1480px;	
+      }
+      .pic7 {
+	      width:764px;
+	      height:199px;
+	      background-image:url("brief1.png");
+	      margin-left:500px;
+	      margin-top: 100px;	
+      }
+      .pic8 {
+	      width:1075px;
+	      height:160px;
+	      background-image:url("out1.png");
+	      margin-left:30px;
+	      margin-top: 300px;
+      }
+       .pic2 {
+	      width:258px;
+	      height:296px;
+	      background-image:url("website2.png");
+	      margin-left:1000px;
+	      margin-top: -150px;	
+      }
+      .pic21 {
+	      width:1400px;
+	      height:44px;
+	      background-image:url("rosa.png");
+	      margin-left:-10px;
+	      margin-top: 200px;
+      }
+      h1 {
+	      width: 200px;
+	      height: 60px;
+	      color:#31cb7a;
+	      font-size:30px;
+	      padding:10px;
+	      margin-top: 100px;
+	      margin-right: -10px;
+	      margin:-620px;
+	      font-family:"Bodoni 72 Bold""sans-serif";
+      }
+      h2 {
+      	color:white;
+      	font-size:15px;
+      	padding:5px;
+      }
+      h3 {
+	      color:#31cb7a;
+	      font-size:30px;
+	      padding:20px;
+	      margin-top: 50px;
+	      margin-right: -500px;
+	      font-family:"Bodoni 72 Bold""sans-serif";
+      }
+      h4 {
+	      color:white;
+	      font-size:30px;
+	      padding:20px;
+	      margin-top: 50px;
+	      margin-right: -500px;
+	      font-family:"Bodoni 72 Bold""sans-serif";
+      }
+      #container {
+      	width:90%;
+	    	background-color: #DE73A7;
+	    	margin: auto;
+	    	display: block;
+	    	padding-bottom: 60px;
+
+      }
+      #heading {
+	      height:82px;
+	      color: #2FCA79;
+	      font-weight: bold;
+	      font-size: 34pt;
+	      margin-left: 50px;
+		  padding-top: 4px;
+	      text-align: left;
+      }
+      #sectionTitle {
+				color: #2FCA79;
+				font-weight: bold;
+	      font-size: 16pt;
+      }
+      #brief {
+      	display: flex;
+      	vertical-align: top;
+      	overflow: auto;
+      	align-items: top;
+      	justify-content: center;
+      }
+      #brief p {
+      	color: #ffffff;
+      	font-size: 14pt;
+      	text-align: left;
+      }
+		#link {
+			
+		}
+	  #outcome {
+      	display: flex;
+      	vertical-align: top;
+      	overflow: auto;
+      	align-items: top;
+      	justify-content: left;
+		padding-left: 30px;
+      }
+	  #outcome p {
+      	color: #ffffff;
+      	font-size: 14pt;
+      	text-align: left;
+      }
+      #artwork {
+      	display: block;
+      }
+      #video {
+      	display: block;
+      }
+		#images table {
+		margin-left: auto;
+	  margin-right: auto;
+			padding: 10px 8px 10px 8px;
+		}
+		#images table tr td {
+			width: 33%;
+		}
+		#images table tr td img {
+			width: 100%;
+		}
+		
+				
+	li {
+		display: inline;
+  list-style: none;
+  padding: 0;
+	}
+
+	li a {
+  display: inline;
+  margin: 30px;
+		margin-top:-60px;
+		margin-left: 320px;
+  padding: 0;
+/*
+		border-right: #4C70E7;
+	border-right: #f70395 thin dotted;
+*/
+/*	margin:280px;*/
+	display: block;
+	-webkit-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+/*	width: -10px;*/
+/*	height: 10px;*/
+/*	margin-top:-170px;*/
+	margin-right:200px;
+	float:left;
+	color:white;
+	font-size: 27px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Bodoni 72 Bold""sans-serif";
+	font-style: bold;
+		text-decoration: none;
+}
+	li a:hover {
+	color: lightpink;
+	cursor: pointer;
+	
+}
+	
+	li:last-child a {
+		margin-right:0px;
+	}
+    </style>
+  </head>
+ 	<a href="index.html" class="smoothScroll"><div class="header"></div>
+  	<body class="biggertext" align = "center">
+      <div class="topnav" align="center"> 
+<ul> 
+	<li><a href="portfolio.html" class="smoothScroll">Portfolio</a></li>
+	<li><a href="about_me.html" class="smoothScroll">About Me</a></li>
+</ul>
+</div>
+	</a>
+  	<div id="container">
+	  	<div id="heading">
+	  		<p>Style Hint</p>
+	  	</div>
+		
+		<div style="display: block; margin-top: 40px;">
+			<div id="brief">
+				<img src="SHP5.png" style="display: inline-block; margin-right: 44pt;" height="600px;"/>
+				<div style="width: 50%; display: inline-block;">
+					<p><span id="sectionTitle">Date:</span> 2021</p>
+					<p><span id="sectionTitle">Brief:</span> Produce a range of weekly outfits, according to the monthly list of items to be promoted for Style Hint app. Photographs to be published in the Style Hint website.    </p>
+					
+					<p><span id="sectionTitle">Outcome:</span><br/>My job role for Style Hint was as a Photographer / Visual Merchandiser.
+
+<p><span id="sectionTitle"></span><br/>I had the responsibility of making outfits following an attractive colour palette and layout for marketing strategy proposes. The outfits were provided by the retail company Uniqlo with the intent of expanding their clothing line through the app. I was in charge of the Spitafields area, in the Uniqlo Spitafields store where the items would be available for shoots.  		
+<p><span id="sectionTitle"></span><br/> The model selection was also one of my responsibilities. I chose models that people could find daily and could identify with. They can be any family member, a friend, or a person you encounter on the train and still be as fashionable as a stereotypical model. The clothing line also promoted clothes for everyone and anyone and I simply followed such guidelines.
+  </p>
+							<p style="margin-top: 80px; color: #2FCA79; font-weight: bold;">Read more about:</p>
+					<p style="color: white"><a href="https://www.theindustry.fashion/uniqlo-launches-stylehint-search-engine-app/">Style Hint app information</a></p>
+			
+		</div>
+	
+				
+			</div>
+		</div>
+		
+		
+		<div class="pic2"></div>
+		
+		<div id="images">
+			<table>
+				<tr>
+					<td><img src="SHP3.png"/></td>
+					<td><img src="SHP4.jpg"/></td>
+					<td><img src="SHP3.jpg"/></td>
+				</tr>
+			</table>
+			<tr> 
+					
+				</tr>
+			</table>
+		
+		</div>
+  	</div>
+  	<h2 class="center"> Lipine | © Copyright 2023 Lipine - All rights reserved </h2> 
+  </body>
+</html>

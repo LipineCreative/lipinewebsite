@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lipine</title>
+<style type="text/css">
+body {
+	background-color: #AB3B68;
+	background-position: center;
+	background-image:url(FUNDO.png);
+	
+	
+	
+}
+
+.body{
+	height:100%;
+	width:100%;
+}
+
+section {
+	position: absolute;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	width: 100%;
+	
+}
+
+	.buttons {
+	width: 1000px;
+	height: 50px;
+	margin-top: 80px;
+	margin-left: 100px;
+	float:left;
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-style: bold;
+}
+.buttons {
+	-webkit-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+}
+.navigation_button {
+	width: px;
+	border-right: #4C70E7;
+	border-right: #f70395 thin dotted;
+	margin: 50px;
+	display: block;
+	-webkit-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+	width: 150px;
+	height: 20px;
+	margin-top:-20px;
+	margin-left:210px;
+	float:left;
+	color:white;
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-style: bold;
+}
+	
+      
+   
+}
+.navigation_button:hover {
+	color: lightpink;
+	cursor: pointer;
+	
+}
+	
+	
+	
+.biggertext {
+	color: ;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 66px;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+}
+
+.header{
+	height:100px;
+	width:200px;
+	background-image:url("Lipine Logo Pequeno.png");
+	margin: auto;
+	margin-top: -210px;
+	margin-left:530px;
+	padding: 50px;}
+
+	
+	
+{
+  box-sizing: border-box;
+	
+
+}
+
+
+	
+.pic {
+	width:1200px;
+	height:640px;
+	background-image:url("54.png");
+	margin-left:-20px;
+	margin-top: 0px;
+	
+}
+	
+	.pic1 {
+	width:300px;
+	height:350px;
+	background-image:url("133.png");
+	margin-left:800px;
+	margin-top: -595px;	
+}
+	.pic6 {
+	width:300px;
+	height:350px;
+	background-image:url("d1.png");
+	margin-left:00px;
+	margin-top: -595px;	
+}
+	.pic2 {
+	width:461px;
+	height:248px;
+	background-image:url("website4.png");
+	margin-left:745px;
+	margin-top: 180px;	
+}
+	
+	.pic3 {
+	width:1200px;
+	height:80px;
+	background-image:url("linha12.png");
+	margin-top: 0px ;	
+	margin-left: 105px;
+}
+	
+	.pic4 {
+	width:1200px;
+	height:80px;
+	background-image:url("linha12.png");
+	margin-top:0px;	
+	margin-left: -20px;
+	
+}
+	
+	.pic5 {
+	width:1256px;
+	height:222px;
+	background-image:url("quadrowebsite.png");
+	margin-top:30px;	
+	margin-left: 80px;
+	
+}
+	.row {
+  display: flex;
+}
+
+.column {
+	float:right;
+   width: 100%;
+  padding: 3px;
+	margin:0px;
+	
+	
+}
+	
+	/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	
+
+	
+	</style>
+</head>
+
+<div class="pic5"></div>
+	
+	<a href="MAIN PAGE.html" class="smoothScroll"><div class="header"></div>
+
+		
+	<div class="pic3"></div> 
+<body class="biggertext" align = "center"> 
+
+<div class="topnav" align="center"> 
+
+	 
+<a href="Lipine.html" class="smoothScroll">
+  <div class="navigation_button">Portfolio</div>
+  </a><a href="projects.html" class="smoothScroll">
+  <div class="navigation_button">Projects</div>
+  </a><a href="contact.html" class="smoothScroll">
+  </a><a href="12.html" class="smoothScroll"><div class="navigation_button">About Me</div>
+</a> 
+	
+	<div class="pic4"></div>
+		
+	
+<div class="pic"></div>
+	  <div class="pic6"></div><div class="pic1"></div>
+   
+
+
+	
+	
+<div class="pic2"></div>
+  
+
+
+</body>
+</html>
