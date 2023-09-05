@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lipine</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+    <style type="text/css">
+      body {
+	      background-color: #AB3B68;
+	      background-position: center;
+	      background-image:url(FUNDO12.png);
+      }
+      .body{
+	      height:100%;
+	      width:100%;
+      }
+      section {
+	      position: absolute;
+	      height: 100%;
+	      min-height: 100%;
+	      max-height: 100%;
+	      width: 100%;
+      }
+      .buttons {
+	      width: 1000px;
+	      height: 50px;
+	      margin-top: 80px;
+	      margin-left: 100px;
+	      float:left;
+	      font-size: 30px;
+	      font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	      font-style: bold;
+      }
+      .buttons {
+	      -webkit-transition: all 1s ease 0s;
+	      -o-transition: all 1s ease 0s;
+	      transition: all 1s ease 0s;
+      }
+      .navigation_button {
+	      border-right: #4C70E7;
+	      border-right: #f70395 thin dotted;
+	      margin:80px;
+	      display: block;
+	      -webkit-transition: all 1s ease 0s;
+	      -o-transition: all 1s ease 0s;
+	      transition: all 1s ease 0s;
+	      width: -10px;
+	      height: 10px;
+	      margin-top:-80px;
+	      margin-left:380px;
+	      float:left;
+	      color:white;
+	      font-size: 20px;
+	      font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Bodoni 72 Bold""sans-serif";
+	      font-style: bold;
+      }
+      }
+      .navigation_button:hover {
+	      color: lightpink;
+	      cursor: pointer;
+      }
+      .header {
+		    
+	      height:100px;
+	      width:200px;
+	      background-image:url("Lipine Logo Pequeno.png");
+	      margin: auto;
+	      margin-top: 90px;
+	      margin-left:530px;
+	      padding: 50px;
+	 		}
+      {
+      	box-sizing: border-box;
+      }
+      .pic {
+	      width:1200px;
+	      height:1500px;
+	      background-image:url("53.png");
+	      margin-left:10px;
+	      margin-top: 70px;
+      }
+      .pic1 {
+	      width:375px;
+	      height:500px;
+	      background-image:url("k5.png");
+	      /*margin-left:-700px;
+	      margin-top: -700px;	*/
+      }
+      .pic3 {
+	      width:329px;
+	      height:437px;
+	      background-image:url("k1.png");
+	      margin-left:-750px;
+	      margin-top: 1450px;	
+      }
+      .pic4 {
+	      width:329px;
+	      height:437px;
+	      background-image:url("o2.png");
+	      margin-left:780px;
+	      margin-top: -435px;	
+      }
+      .pic5 {
+	      width:329px;
+	      height:437px;
+	      background-image:url("o3.png");
+	      margin-left:20px;
+	      margin-top: -438px;	
+      }
+      .pic6 {
+	      width:239px;
+	      height:82px;
+	      background-image:url("koko.png");
+	      margin-left:-870px;
+	      margin-top: -1480px;	
+      }
+      .pic7 {
+	      width:764px;
+	      height:199px;
+	      background-image:url("brief1.png");
+	      margin-left:500px;
+	      margin-top: 100px;	
+      }
+      .pic8 {
+	      width:1075px;
+	      height:160px;
+	      background-image:url("out1.png");
+	      margin-left:30px;
+	      margin-top: 300px;
+      }
+      .pic2 {
+	      width:258px;
+	      height:296px;
+	      background-image:url("website2.png");
+	      margin-left:680px;
+	      margin-top: -200px;	
+      }
+     
+   		h2 {
+	color:white;
+	font-size:15px;
+	padding:10px;
+	margin-left:-50px;
+		margin-top: 20px;
+
+
+}
+      
+		
+      #container {
+      	width:90%;
+	    	background-color: #DE73A7;
+	    	margin: auto;
+	    	display: block;
+	    	padding-bottom: 50px;
+
+      }
+      #heading {
+	      height:82px;
+	      color: #2FCA79;
+	      font-weight: bold;
+	      font-size: 34pt;
+	      margin-left: 50px;
+		  padding-top: 4px;
+	      text-align: left;
+      }
+      #sectionTitle {
+				color: #2FCA79;
+				font-weight: bold;
+	      font-size: 16pt;
+      }
+      #brief {
+      	display: flex;
+      	vertical-align: top;
+      	overflow: auto;
+      	align-items: top;
+      	justify-content: center;
+      }
+      #brief p {
+      	color: #ffffff;
+      	font-size: 14pt;
+      	text-align: left;
+      }
+		#link {
+			
+		}
+	  #outcome {
+      	display: flex;
+      	vertical-align: top;
+      	overflow: auto;
+      	align-items: top;
+      	justify-content: left;
+		padding-left: 30px;
+      }
+	  #outcome p {
+      	color: #ffffff;
+      	font-size: 14pt;
+      	text-align: left;
+      }
+      #artwork {
+      	display: block;
+      }
+      #video {
+      	display: block;
+      }
+		#images table {
+		margin-left: auto;
+	  margin-right: auto;
+			padding: 10px 8px 10px 8px;
+		}
+		#images table tr td {
+			width: 33%;
+		}
+		#images table tr td img {
+			width: 100%;
+		}
+		
+		
+	li {
+		display: inline;
+  list-style: none;
+  padding: 0;
+	}
+
+	li a {
+  display: inline;
+  margin: 30px;
+		margin-top:-60px;
+		margin-left: 320px;
+  padding: 0;
+/*
+		border-right: #4C70E7;
+	border-right: #f70395 thin dotted;
+*/
+/*	margin:280px;*/
+	display: block;
+	-webkit-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+/*	width: -10px;*/
+/*	height: 10px;*/
+/*	margin-top:-170px;*/
+	margin-right:200px;
+	float:left;
+	color:white;
+	font-size: 27px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Bodoni 72 Bold""sans-serif";
+	font-style: bold;
+		text-decoration: none;
+}
+	li a:hover {
+	color: lightpink;
+	cursor: pointer;
+	
+}
+	
+	li:last-child a {
+		margin-right:0px;
+	}
+    </style>
+  </head>
+  	<a href="index.html" class="smoothScroll"><div class="header"></div>
+  	<body class="biggertext" align = "center">
+ <div class="topnav" align="center"> 
+<ul> 
+	<li><a href="portfolio.html" class="smoothScroll">Portfolio</a></li>
+	<li><a href="about_me.html" class="smoothScroll">About Me</a></li>
+</ul>
+</div>
+
+  	<div id="container">
+	  	<div id="heading">
+	  	<p>Lexicon</p>
+	  	</div>
+		
+		<div style="display: block; margin-top: 40px;">
+			<div id="brief">
+				<img src="i7.png" width:"329px"; height="500px;"  style="display: inline-block; margin-right: 45pt; margin-top: 2%;" </img>
+				<div style="width: 50%; display: inline-block;">
+					<p><span id="sectionTitle">Date:</span> 2019</p>
+					<p><span id="sectionTitle">Brief:</span> Representation of 2 artists: John Cage and Irma Boom through a piece of paper. Only black and white was allowed as submission. </p>
+					
+					<p><span id="sectionTitle">Outcome:</span><br/>I have looked for both the artists essences. For John Cage's posters I used one of his most famous compositions named "4'33''" while I dispersed the typography to ressonate silence. 
+						
+						<p><span id="sectionTitle"></span><br/>As for Irma Boom, I used her play with typography as a reference. The contrast of colors also helped to express her authenticity as an artist.  </p>
+						
+
+		</div>
+			</div>
+		</div>
+		
+		<div class="pic2"></div>
+		<div id="images">
+			<table>
+				<tr>
+					<td><img src="i4.png"/></td>
+					<td><img src="i2.png"/></td>
+					<td><img src="i1.png"/></td>
+				</tr>
+			</table>
+		</div>
+  	</div>
+		
+		<h2 class="center"> Lipine | © Copyright Lipine - All rights reserved </h2>
+  </body>
+</html>
